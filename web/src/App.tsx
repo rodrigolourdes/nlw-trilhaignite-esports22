@@ -1,6 +1,8 @@
 // JSX: JavaScript + XML (HTML)
 
-// COmponentes e Propriedades
+// Componentes e Propriedades
+
+import './style.css';
 
 interface ButtonProps {
   title: string;
