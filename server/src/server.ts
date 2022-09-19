@@ -17,6 +17,9 @@ const prisma = new PrismaClient()
  */
 
 app.get('/games', (request, response) => {
+
+    
+
     return response.json([]);
 });
 
