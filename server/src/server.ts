@@ -1,6 +1,10 @@
 import express, { response } from 'express'
 
+import {  PrismaClient } from '@prisma/client'
+
 const app = express()
+
+const prisma = new PrismaClient()
 
 //HTTP methods / API RESTful / HTTP Codes
 
